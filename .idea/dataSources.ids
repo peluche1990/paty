@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Data Source" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="10de0d4d-5b3f-4c63-b8da-0e9d0e5d31d3">
+    <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+    <jdbc-url>jdbc://paty-db.my.phpcloud.com:3306</jdbc-url>
+    <user-name>paty</user-name>
+    <user-password>dfc0dfc5dfd9dfcfdfdadfc2df9bdf93df93df9a</user-password>
+    <default-dialect>MySQL</default-dialect>
+    <libraries>
+      <library>
+        <url>jar://$PROJECT_DIR$/../../../mysql-connector-java-5.1.22-bin.jar!/</url>
+      </library>
+      <library>
+        <url>file://$PROJECT_DIR$/../../../mysql-connector-license.txt</url>
+      </library>
+    </libraries>
+  </data-source>
+</component>

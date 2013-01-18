@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="recursos/css/jquery.mobile-1.2.0.css" />
+
+    <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
+    <script src="recursos/libs/jquery-1.8.3.js"></script>
+    <script src="recursos/libs/jquery.mobile-1.2.0.js"></script>
+    <script src="recursos/libs/ajax"></script>
+
+</head>
+
+<body>
+<div data-role="page">
+
+   <div data-role="header">
+        <h1>Perfil</h1>
+
+
+        <a href="index.html" data-role="button" data-icon="back">Atras</a>
+        <button data-role="button"  data-iconpos="legth">Editar</button>
+   </div><!-- /header -->
+ <div data-role="content">
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+                <p><img src="recursos/img/Pantallazo-2.png" alt=""></p>
+
+            </div>
+            <div class="ui-block-b">
+                <p>Hola Diego !</p>
+
+                <label>Sexo</label>
+
+                <input type="text" value="masculino" id="sexo">
+                <label>Edad</label>
+                <input type="text" value="06" id="edad">
+
+                <label>Datos de interes</label>
+                <input type="text" id="dato_interes">
+            </div>
+        </div>
+ </div>
+
+
+        <!-- /content -->
+ <div data-role="fieldcontain">
+
+         Actividades diarias
+
+     <button data-role="button" >Empezar</button>
+
+ </div><!-- /page -->
+</div>
+</body>
+</html>
+
+       <!-- http://tympanus.net/codrops/category/web-design/ -->

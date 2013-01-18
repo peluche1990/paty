@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Categoria</title>
+    <link rel="stylesheet" href="recursos/css/jquery.mobile-1.2.0.css" />
+
+    <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
+    <script src="recursos/libs/jquery-1.8.3.js"></script>
+    <script src="recursos/libs/jquery.mobile-1.2.0.js"></script>
+    <script src="jquery_function.js"></script>
+    <link rel="stylesheet" type="text/css" href="catstyle.css" media="all">
+</head>
+
+<body>
+<div data-role="page">
+
+   <div data-role="header">
+        <h1>Categoria</h1>
+     <a href="index.html" data-role="button" data-icon="back">Atras</a>
+    </div><!-- /header -->
+ <div data-role="content">
+        <div class="ui-grid-a">
+    <form id="categoria">
+            <label>Fase</label>
+        <input id="fase" type="text" >
+
+        <label>Nivel</label>
+         <input id="nivel" type="number" >
+        <label>Descripcion</label>
+        <textarea id="descripcion" > </textarea>
+        <input id="boton_enviar" type="submit"  value="Enviar" />
+
+       <div id="resultados"></div>
+
+        <div id="cargando_imagen" hidden="true">
+          <img src="recursos/img/iconos/ajax-loader1.gif">
+        </div>
+
+    </form>
+  </div>
+ <div data-role="fieldcontain">
+         Actividades diarias
+     <button data-role="button" >Empezar</button>
+ </div><!-- /page -->
+</div>
+ </div>
+</body>
+</html>
+
+       <!-- http://tympanus.net/codrops/category/web-design/ -->
